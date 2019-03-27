@@ -13,12 +13,12 @@ class SecretCave extends React.Component {
         return (
 
             <div>
-                <img class="BG" src={cave} alt="cave"></img>
+                <img className="BG" src={cave} alt="cave"></img>
                 <h1 id="REACTTitle">Cody's Super Secret Can't let the Bad Guys Know Hidden Cave</h1>
 
                 <div id="characterBox">
-                    <button class="btn btn-danger">Action 1</button>
-                    <button class="btn btn-danger">Action 2</button>
+                    <button className="btn btn-danger">Action 1</button>
+                    <button className="btn btn-danger">Action 2</button>
                 </div>
 
                 <div>

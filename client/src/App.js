@@ -5,10 +5,10 @@ import World from './Features/World';
 
 /*------------------ Technical Folder ------------------*/
 import Homepage from './components/Technical/Homepage';
-import Login from './components/Technical/Login';
 import Register from './components/Technical/Register';
 import DialogueBox from './components/Technical/DialogueBox';
 import WorldMap from './components/Technical/WorldMap';
+import Scroll from './components/Technical/Scroll';
 
 /*------------------ Forest Path Folder ------------------*/
 import OuterTown from './components/ForestPath/OuterTown'
@@ -29,6 +29,8 @@ import JavascriptTown from './components/Towns/JavascriptTown';
 import ReactTown from './components/Towns/ReactTown';
 import WillBucks from './components/Towns/WillBucks';
 
+import render from './components/render';
+
 
 const App = () => (
   <BrowserRouter>
@@ -38,7 +40,6 @@ const App = () => (
 
       {/* ------------------ Technical Folder ------------------ */}
       <Route exact path="/" component={Homepage} />
-      <Route exact path="/Login" component={Login} />
       <Route exact path="/Register" component={Register} />
       <Route exact path="/DialogueBox" component={DialogueBox} />
       <Route exact path="/WorldMap" component={WorldMap} />
@@ -61,6 +62,9 @@ const App = () => (
       <Route exact path="/JavascriptTown" component={JavascriptTown} />
       <Route exact path="/ReactTown" component={ReactTown} />
       <Route exact path="/WillBucks" component={WillBucks} />
+
+      <Route exact path="/render" component={render} />
+      <Route exact path="/Scroll" component={Scroll} />
 
     </div>
   </BrowserRouter>

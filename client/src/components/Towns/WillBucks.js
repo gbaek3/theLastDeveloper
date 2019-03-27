@@ -13,14 +13,14 @@ class WillBucks extends React.Component {
         return (
 
             <div>
-                <img class="BG" src={willBucks} alt="WillBucks"></img>
+                <img className="BG" src={willBucks} alt="WillBucks"></img>
 
                 <h1 id="WillBucksTitle">Welcome to WillBucks!</h1>
                 <div>
 
                     <div id="characterBox">
-                        <button class="btn btn-danger">Action 1</button>
-                        <button class="btn btn-danger">Action 2</button>
+                        <button className="btn btn-danger">Action 1</button>
+                        <button className="btn btn-danger">Action 2</button>
                     </div>
 
                     <div>

@@ -13,7 +13,7 @@ class JavascriptTown extends React.Component {
         return (
 
             <div>
-                <img class="BG" src={JSBG} alt="JSBG" />
+                <img className="BG" src={JSBG} alt="JSBG" />
                 <h1 id="JSTitle">Javascript Junkies</h1>
                 <Link to="/JavascriptHouse">
                     <img id="JS" src="http://i.imgur.com/hgvDp.gif"></img>
@@ -27,7 +27,7 @@ class JavascriptTown extends React.Component {
                 <img id="JSSprite3" src="https://i.pinimg.com/originals/c0/d3/8c/c0d38c518fdbf6012e0475bb7a0598a5.gif" onclick=""></img>
                 <img id="JSSprite4" src="https://i.pinimg.com/originals/c0/d3/8c/c0d38c518fdbf6012e0475bb7a0598a5.gif" onclick=""></img>
                 <img id="JSSprite5" src="https://i.pinimg.com/originals/c0/d3/8c/c0d38c518fdbf6012e0475bb7a0598a5.gif" onclick=""></img>
-            
+
             </div>
         )
     }

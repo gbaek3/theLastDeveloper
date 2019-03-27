@@ -13,12 +13,12 @@ class HTMLHouse extends React.Component {
         return (
 
             <div>
-                <img class="BG" src={HTMLHouseImg} alt="HTMLHouse" />
+                <img className="BG" src={HTMLHouseImg} alt="HTMLHouse" />
                 <h1>HTML House</h1>
 
                 <div id="characterBox">
-                    <button class="btn btn-danger">Action 1</button>
-                    <button class="btn btn-danger">Action 2</button>
+                    <button className="btn btn-danger">Action 1</button>
+                    <button className="btn btn-danger">Action 2</button>
                 </div>
 
                 <div>
