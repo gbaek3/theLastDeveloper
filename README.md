@@ -12,7 +12,7 @@ Password: guest
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Keybinds:
+# Keybinds: \
 -Move with arrow keys or WASD \
 -Interact with NPC using space bar
 
