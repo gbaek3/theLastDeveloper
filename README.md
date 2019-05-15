@@ -5,8 +5,7 @@
 Interactive RPG Game to teach simple basics of Web Development
 
 # Guest credentials:
-Username: guest
-
+Username: guest \
 Password: guest
 
 ## Getting Started
@@ -14,7 +13,7 @@ Password: guest
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 Keybinds:
--Move with arrow keys or WASD
+-Move with arrow keys or WASD \
 -Interact with NPC using space bar
 
 ### Prerequisites
